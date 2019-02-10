@@ -114,7 +114,7 @@ function initialize()
 
 	var loader = new THREE.FontLoader();
 
-	loader.load( 'fonts/helvetiker_regular.typeface.json', function ( font ) { init(font) }
+	loader.load( 'fonts/helvetiker_regular.typeface.json', function ( font ) { init(font); });
 
         let geometry1 = new THREE.TextGeometry( 'Hello three.js!', {
                 font: font,
